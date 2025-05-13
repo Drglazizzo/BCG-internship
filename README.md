@@ -15,3 +15,9 @@ python-pptx
 matplotlib
 comtypes
 jupyter
+
+Note: Obtain `data_for_predictions.csv` from your data source. Expected columns include `id`, `churn`, and features (e.g., contract length, consumption).
+jupyter notebook churn_prediction.ipynb
+
+python generate_executive_summary.py
+
